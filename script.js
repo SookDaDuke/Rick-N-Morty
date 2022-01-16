@@ -129,7 +129,7 @@ function buyButtonClick(event, data) {
   const producerId = event.target.id.slice(4)
 
   if (canAffordProducer(data, producerId) === false) {
-    return window.alert("Not enough coffee!")
+    return window.alert("Not portal fluid!")
   }
   if (canAffordProducer(data, producerId) === true) {
     attemptToBuyProducer(data, producerId)
