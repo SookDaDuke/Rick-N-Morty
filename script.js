@@ -48,8 +48,8 @@ function makeProducerDiv(producer) {
   </div>
   <div class="producer-column">
     <div>Quantity: ${producer.qty}</div>
-    <div>Coffee/second: ${producer.cps}</div>
-    <div>Cost: ${currentCost} coffee</div>
+    <div>Portal Fluid/second: ${producer.cps}</div>
+    <div>Cost: ${currentCost} portal fluid</div>
   </div>
   `;
   containerDiv.innerHTML = html;
