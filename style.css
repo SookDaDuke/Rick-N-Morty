@@ -3,6 +3,8 @@
 }
 body {
   margin: 0px;
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701472317.jpg");
+  color: white;
 }
 .column-container {
   display: flex;
@@ -35,7 +37,7 @@ body {
 .column-header {
   font-size: 25px;
   position: relative;
-  background-color: white;
+
   top: 8px;
 }
 #big_coffee {
